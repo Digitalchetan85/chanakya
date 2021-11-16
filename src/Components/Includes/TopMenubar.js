@@ -19,8 +19,8 @@ const TopMenubar = () => {
               <Nav.Link href="#pricing">Contact Us</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="#pricing" className="btn btn-primary m-1 rounded">Click here to Register</Nav.Link>
-              <Nav.Link href="#pricing" className="btn btn-secondary text-white m-1">Join / Telegram Group</Nav.Link>
+              {/* <Nav.Link href="#pricing" className="btn btn-primary m-1 rounded">Click here to Register</Nav.Link> */}
+              <Nav.Link href="#pricing" className="btn btn-secondary text-white m-1">Join Telegram Group</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
