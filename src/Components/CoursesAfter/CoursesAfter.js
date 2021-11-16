@@ -2,7 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel2";
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
-import { Container, Image } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import img1 from "../../Images/testimonials/image-1.png";
 import img2 from "../../Images/testimonials/image-2.png";
 import img3 from "../../Images/testimonials/image-3.png";
@@ -51,7 +51,16 @@ const CoursesAfter = () => {
   return (
     <div id="association-slider">
       <Container>
-        <h2 className="pt-2 pb-2 text-center">Success Stories</h2>
+        <h2 className="pt-2 pb-2 text-center text-primary">Success Stories</h2>
+        <Row className="justify-content-center">
+          <Col md={4}>
+            <h4 className="side-line text-center">
+              <span className="line">
+                <i className="fas fa-book-reader"></i>
+              </span>
+            </h4>
+          </Col>
+        </Row>
         <OwlCarousel options={options}>
           {associations.map((item, index) => (
             <div className="text-center" key={index}>

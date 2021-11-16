@@ -8,6 +8,15 @@ const Courses = () => {
         <Col md={12}>
           <div className="text-center">
             <h2 className="text-primary fw-bold pt-2 pb-2">ಕೋರ್ಸ್‌ಗಳ ಮಾಹಿತಿ</h2>
+            <Row className="justify-content-center">
+              <Col md={4}>
+                <h4 className="side-line text-center">
+                  <span className="line">
+                    <i className="fas fa-book-reader"></i>
+                  </span>
+                </h4>
+              </Col>
+            </Row>
           </div>
         </Col>
       </Row>
@@ -56,7 +65,10 @@ const Courses = () => {
       <Row className="justify-content-center">
         <Col md={4}>
           <div className="text-center m-3 ">
-            <a className="btn btn-primary text-uppercase fw-bold" href="#">
+            <a
+              className="btn btn-primary text-white p-3 text-uppercase fw-bold"
+              href="https://t.me/Chanakyacareeracademy_Dharwad"
+            >
               Click here to join
             </a>
           </div>

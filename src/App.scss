@@ -17,7 +17,7 @@ $theme-colors: (
 
 $primary-color: #ff6600;
 $secondary-color: #210d0d;
-$ternary-color: #f8f9fa;
+$ternary-color: #F8F9FA;
 $white-color: #ffffff;
 
 @mixin book-reading-icon($background-col, $icon-color, $icon-background-color){
@@ -81,6 +81,26 @@ $white-color: #ffffff;
 }
 
 #about {
-  @include book-reading-icon($primary-color, $secondary-color, $white-color);
+  @include book-reading-icon($white-color, $white-color, $primary-color);
+}
+
+#courses {
+  @include book-reading-icon($primary-color, $primary-color, $white-color);
+}
+
+#success-stories {
+  @include book-reading-icon($primary-color, $primary-color, $ternary-color);
+}
+
+#gallery-second {
+  @include book-reading-icon($primary-color, $primary-color, $ternary-color);
+}
+
+#gallery {
+  @include book-reading-icon($primary-color, $primary-color, $ternary-color);
+}
+
+#contact {
+  @include book-reading-icon($primary-color, $primary-color, $white-color);
 }
 
