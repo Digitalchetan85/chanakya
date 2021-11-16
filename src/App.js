@@ -17,7 +17,7 @@ function App() {
       <section className="" id="">
         <MainSlider />
       </section>
-      <section className="pt-2 pb-2 pb-md-5" id="">
+      <section className="pt-2 pb-2 pb-md-5" id="about">
         <About />
       </section>
       <section className="pt-2 pb-2 pt-md-5 pb-md-5" id="">

@@ -18,6 +18,15 @@ const About = () => {
                   {" "}
                   (IAS/KAS ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆಗಳ ತರಬೇತಿ ಕೇಂದ್ರ)
                 </h3>
+                <Row className="justify-content-center">
+                  <Col md={4}>
+                    <h4 className="side-line text-center">
+                      <span className="line">
+                        <i className="fas fa-book-reader"></i>
+                      </span>
+                    </h4>
+                  </Col>
+                </Row>
               </div>
             </Col>
           </Row>
@@ -67,7 +76,12 @@ const About = () => {
                       </p>
                     </div>
                     <div className="text-center mb-2">
-                        <a className="btn btn-primary text-uppercase fw-bold" href="#">Click here to join</a>
+                      <a
+                        className="btn btn-primary text-uppercase fw-bold"
+                        href="#"
+                      >
+                        Click here to join
+                      </a>
                     </div>
                   </Col>
                 </Row>

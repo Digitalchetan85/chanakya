@@ -20,10 +20,36 @@ $secondary-color: #210d0d;
 $ternary-color: #f8f9fa;
 $white-color: #ffffff;
 
+@mixin book-reading-icon($background-col, $icon-color, $icon-background-color){
+  .side-line {
+      position: relative;
+      &::before {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          width: 100%;
+          height: 1px;
+          content: '';
+          background-color: $background-col;
+      }
+      .line {
+          position: relative;
+          z-index: 1;
+          display: inline-block;
+          padding: 6px 20px;
+          background-color: $icon-background-color;
+          .fa-book-open-reader {
+              color: $icon-color;
+          }
+      }
+  }
+}
+
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
+
 @media (min-width: 576px) {
 }
 
@@ -53,3 +79,8 @@ $white-color: #ffffff;
     }
   }
 }
+
+#about {
+  @include book-reading-icon($primary-color, $secondary-color, $white-color);
+}
+

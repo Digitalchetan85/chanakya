@@ -10,12 +10,12 @@ const Gallery = () => {
         <Row>
           <Col md={6}>
             <div className="text-center">
-              <Image class="img-fluid rounded shadow-sm" src={image1} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image1} alt="galery" />
             </div>
           </Col>
           <Col md={6}>
             <div className="text-center">
-              <Image class="img-fluid rounded shadow-sm" src={image2} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image2} alt="galery" />
             </div>
           </Col>
         </Row>
