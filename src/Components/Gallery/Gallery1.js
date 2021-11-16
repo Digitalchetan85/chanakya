@@ -17,42 +17,42 @@ const Gallery1 = () => {
         <Row className="justify-content-center">
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image1} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image1} alt="galery" />
             </div>
           </Col>
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image2} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image2} alt="galery" />
             </div>
           </Col>
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image3} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image3} alt="galery" />
             </div>
           </Col>
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image7} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image7} alt="galery" />
             </div>
           </Col>
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image5} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image5} alt="galery" />
             </div>
           </Col>
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image6} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image6} alt="galery" />
             </div>
           </Col>
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image4} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image4} alt="galery" />
             </div>
           </Col>
           <Col md={4}>
             <div className="text-center m-1">
-              <Image src={image8} alt="galery" />
+              <Image className="img-fluid rounded shadow-sm" src={image8} alt="galery" />
             </div>
           </Col>
         </Row>

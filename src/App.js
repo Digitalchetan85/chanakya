@@ -29,7 +29,7 @@ function App() {
       <section className="pt-2 pb-2 pt-md-5 pb-md-5" id="">
         <Gallery />
       </section>
-      <section className="pt-2 pb-2 pt-md-5 pb-md-5 bg-light" id="">
+      <section className="pt-2 pb-2 pt-md-5 pb-md-5 bg-light" id="gallery">
         <Gallery1 />
       </section>
       <section className="pt-2 pb-2 pt-md-5 pb-md-5" id="">
