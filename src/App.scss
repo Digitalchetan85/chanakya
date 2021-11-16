@@ -1,0 +1,55 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "primary": #ff6600,
+  "secondary": #210d0d,
+  "dark": #131921,
+  "success": #198754,
+  "info": #0dcaf0,
+  "warning": #a7c227,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #ff6600;
+$secondary-color: #210d0d;
+$ternary-color: #f8f9fa;
+$white-color: #ffffff;
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}
+
+#navbar {
+  .nav-link {
+    color: $secondary-color;
+    font-weight: 600;
+    padding: 1em 1em;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
